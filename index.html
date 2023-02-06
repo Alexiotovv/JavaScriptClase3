@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Sistemaxxx</title>
+
+</head>
+<style>
+    .estiloboton{
+        padding: 20px;
+    }
+    .gruponotas{
+        padding: 20px;
+    }
+</style>
+<body>
+    <div class="gruponotas">
+        <label for="">Nota1</label>
+        <input type="text" class="form form-control" id="nota1" value="11">
+        <label for="">Nota2</label>
+        <input type="text" class="form form-control" id="nota2" value="11">
+        <label for="">Nota3</label>
+        <input type="text" class="form form-control" id="nota3" value="11">
+        <label for="">Nota4</label>
+        <input type="text" class="form form-control" id="nota4" value="11">
+    
+        <label for="">Promedio</label>
+        <input type="text" class="form form-control" id="Promedio"
+        disabled>
+    </div>
+   
+    <div class="estiloboton">
+        <button class="btn btn-outline-primary" id="Calcular">
+            Calcular</button>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script>
+        $("#Calcular").on("click",function(e){
+            // n1=$("#nota1").val();
+            // n2=$("#nota2").val();
+            // n3=$("#nota3").val();
+            // n4=$("#nota4").val();
+            // $("#Promedio").val(EncontrarPromedio(n1,n2,n3,n4));
+            alert(parseLocoMensajito('Alex'));
+        });
+    </script>
+    <script src="jsFunciones/Funciones.js"></script>
+</body>
+</html>
